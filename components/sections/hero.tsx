@@ -128,7 +128,7 @@ export function Hero() {
                 Find your Solution
               </AnimatedButton>
             </Link>
-            <Link href="/#contact" className="w-full sm:w-auto">
+            <Link href="/contact" className="w-full sm:w-auto">
               <AnimatedButton variant="outline" className="w-full">
                 Request an Assessment
               </AnimatedButton>

@@ -10,11 +10,11 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/">
-              <Image 
-                src="/logos/montana-logo.svg" 
-                alt="Montana Data Company" 
-                width={220} 
-                height={80} 
+              <Image
+                src="/logos/montana-logo.svg"
+                alt="Montana Data Company"
+                width={220}
+                height={80}
                 className="h-24 w-auto object-contain mb-2"
               />
             </Link>
@@ -23,10 +23,22 @@ export function Footer() {
             </p>
           </div>
 
+          {/* Navigation Column */}
+          <div>
+            <h4 className="text-white font-display font-bold mb-6">Company</h4>
+            <ul className="space-y-3 text-sm">
+              <li><Link href="/services" className="text-montana-muted hover:text-white transition-colors">Services</Link></li>
+              <li><Link href="/resources" className="text-montana-muted hover:text-white transition-colors">Resources</Link></li>
+              <li><Link href="/about" className="text-montana-muted hover:text-white transition-colors">About Us</Link></li>
+              <li><Link href="/partners" className="text-montana-muted hover:text-white transition-colors">Partners</Link></li>
+              <li><Link href="/contact" className="text-montana-muted hover:text-white transition-colors">Contact</Link></li>
+            </ul>
+          </div>
+
           {/* Contact Column */}
           <div>
-            <h4 className="text-white font-display font-bold mb-6">Contact</h4>
-            <ul className="space-y-4 text-sm">
+            <h4 className="text-white font-display font-bold mb-6">Get in Touch</h4>
+            <ul className="space-y-4 text-sm mb-6">
               <li>
                 <a href="tel:+27871883843" className="flex items-center gap-3 text-montana-muted hover:text-white transition-colors">
                   <Phone className="h-4 w-4 text-montana-pink" />
@@ -40,24 +52,19 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-
-          {/* Social Column */}
-          <div>
-            <h4 className="text-white font-display font-bold mb-6">Connect</h4>
             <div className="flex gap-4">
-              <a 
-                href="https://www.facebook.com/MontanaDataCompany/" 
-                target="_blank" 
+              <a
+                href="https://www.facebook.com/MontanaDataCompany/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-montana-muted hover:text-white transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a 
-                href="https://www.linkedin.com/company/montana-data-company/posts/?feedView=all" 
-                target="_blank" 
+              <a
+                href="https://www.linkedin.com/company/montana-data-company/posts/?feedView=all"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-montana-muted hover:text-white transition-colors"
                 aria-label="LinkedIn"
@@ -75,7 +82,7 @@ export function Footer() {
           <div className="flex space-x-8 text-xs text-montana-muted order-1 md:order-2">
             <Link href="#" className="hover:text-montana-pink transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-montana-pink transition-colors">Terms of Service</Link>
-            <Link href="#" className="hover:text-montana-pink transition-colors">System Status</Link>
+            <Link href="/contact" className="hover:text-montana-pink transition-colors">Contact Us</Link>
           </div>
         </div>
       </div>
