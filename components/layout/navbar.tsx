@@ -19,6 +19,7 @@ export function Navbar() {
         <nav className="hidden md:flex items-center space-x-8 text-sm font-medium text-montana-muted">
           <Link href="/services" className="hover:text-montana-pink transition-colors">Services</Link>
           <Link href="/resources" className="hover:text-montana-pink transition-colors">Resources</Link>
+          <Link href="/popia" className="hover:text-montana-pink transition-colors">POPIA</Link>
           <Link href="/about" className="hover:text-montana-pink transition-colors">About</Link>
           <Link href="/contact" className="hover:text-montana-pink transition-colors">Contact</Link>
         </nav>

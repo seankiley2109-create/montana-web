@@ -26,7 +26,7 @@ export default function ServicesPage() {
                 Build Your Solution
               </AnimatedButton>
             </Link>
-            <Link href="#contact">
+            <Link href="/contact">
               <AnimatedButton variant="outline" className="w-full sm:w-auto px-8 py-4 text-lg">
                 Get Assessment
               </AnimatedButton>
@@ -231,7 +231,7 @@ export default function ServicesPage() {
                   Demonstrable compliance and enhanced customer trust.
                 </div>
               </div>
-              <Link href="/pos?service=popia" className="mt-auto">
+              <Link href="/popia" className="mt-auto">
                 <AnimatedButton variant="outline" className="w-full text-xs py-2">
                   Start Assessment
                 </AnimatedButton>

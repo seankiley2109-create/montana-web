@@ -5,19 +5,17 @@ import { Services } from "@/components/sections/services";
 import { WhoWeServe } from "@/components/sections/who-we-serve";
 import { WhyMontana } from "@/components/sections/why-montana";
 import { TechStack } from "@/components/sections/tech-stack";
-import { Contact } from "@/components/sections/contact";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <TrustStrip />
-      <ClientLogos />
       <Services />
+      <ClientLogos />
       <WhoWeServe />
-      <WhyMontana />
       <TechStack />
-      <Contact />
+      <WhyMontana />
     </>
   );
 }
